@@ -1,6 +1,7 @@
 package com.example;
 
 import app.FirstTaskMetrics;
+import app.SecondTaskMetrics;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +16,9 @@ public class Main {
                 data[3],
                 languageLevel
         );
+        SecondTaskMetrics task2 = new SecondTaskMetrics(task1);
 
         task1.output();
+        task2.output();
     }
 }
