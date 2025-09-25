@@ -30,7 +30,7 @@ public class SecondTaskMetrics {
 
     private double softwareSize() {
         double K = modulesCount();
-        return (200 * K) + K * (Math.log(K) / Math.log(2));
+        return K * 220 * (Math.log(48) / Math.log(2));
     }
 
     private double asmCommandsCount() {
