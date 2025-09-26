@@ -2,6 +2,7 @@ package com.example;
 
 import app.FirstTaskMetrics;
 import app.SecondTaskMetrics;
+import app.ThirdTaskMetrics;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +19,23 @@ public class Main {
         );
         SecondTaskMetrics task2 = new SecondTaskMetrics(task1);
 
+        int startRating = 2000;
+        int programsCount = 3;
+        int[] programsSize = {4, 8, 10};
+        int[] errorsPerProgram = {1, 2, 4};
+        int nextProgramSize = 14;
+
+        ThirdTaskMetrics task3 = new ThirdTaskMetrics(
+                startRating,
+                languageLevel,
+                programsCount,
+                programsSize,
+                errorsPerProgram,
+                nextProgramSize
+        );
+
         task1.output();
         task2.output();
+        task3.output();
     }
 }
