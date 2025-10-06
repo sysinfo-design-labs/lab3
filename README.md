@@ -19,14 +19,7 @@ gradle --version
 ./gradlew build
 
 Запуск проекта:
-Режим ручного ввода:
-
 ./gradlew run
-
-Тест
-
-Запуск тестов:
-./gradlew run < variant3.txt
 
 Номер команды
 Команда №2
